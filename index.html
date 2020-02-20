@@ -94,18 +94,55 @@
       el: '#app',
       vuetify: new Vuetify(),
       data:{
-            topicos:[ 
-                {titulo: 'Introdução ao Android', subtitulo: ''},
-                {titulo: 'Arquitetura do Android', subtitulo: ''},
-                {titulo: 'Ambiente de Desenvolvimento', subtitulo: 'Instalando o Android Studio, Preparando o Ambiente'},
-                {titulo: 'Conceitos Básicos', subtitulo: 'Criando o primeiro projeto, Entendendo a estruura do projeto, Adição de dependências, Activities, Views, Resources e a Classe R'},
-                {titulo: 'Kotlin', subtitulo: 'Principais', subtitulo: ''},
-                {titulo: 'Interface Gráfica', subtitulo: 'Criando um layaut XML, Text Views, Edit ext, Button, Gerenciadores de layout'},
-                {titulo: 'Activities', subtitulo: ''},
-                {titulo: 'Intents', subtitulo: ''},
-                {titulo: 'ListView', subtitulo: ''},
-                {titulo: 'Recursos', subtitulo: ''},
-                {titulo: 'Banco de Dados SQLite', subtitulo: ''}
+         topicos:[
+             { titulo:"Introdução ao Android", sub:""} ,
+             { titulo:"Arquitetura ao Android", sub:""},
+             { titulo:"Ambiente de desenvolvimento", sub:`Instalando o Android Studio, 
+                                                          Preparando o ambiente`},
+           
+             { titulo:"Conceitos Básicos", sub:`Criando o primeiro projeto,
+                                                Entendendo a estrutura do projeto,
+                                                Adição de dependências,
+                                                Activities,
+                                                Views,
+                                                Resources e a classe R`},
+
+            {titulo:"Kotlin", sub:`Principais recursos da linguagem,
+                                    Null Safe,
+                                    Data Class,
+                                    Companion Objects`}
+           
+            ,{titulo:"Interface Gráfica",sub:`Criando um layout XML,
+                                                Text Views,
+                                                Edit Text,
+                                                Button,
+                                                Gerenciadores de layout,
+                                                LinearLayout,
+                                                RelativeLayout,
+                                                ConstraintLayout`}
+            ,{titulo:"Activities",sub:`Criando uma activity
+                                        Ciclo de vida das activities
+                                        Vinculando uma activity a um layout
+                                        Declarando Activities no MANIFEST
+                                        Bind de elementos de tela e suas funções
+                                        `}
+            ,{titulo:"Intents",sub:`Navegação entre telas
+                                    Passagem de parâmetros entre telas
+                                    `}
+            ,{titulo:"ListView",sub:`Criando um listView padrão
+                                    ViewHolder
+                                    Adapter
+                                    ListView Personalizado
+                                    `}
+            ,{titulo:"Recursos",sub:`Interagindo com a câmera do dispositivo
+                                    Capturando imagens
+                                    Interagindo com o GPS do dispositivo
+                                    `}
+            ,{titulo:"Banco de Dados SQLite",sub:`Criando um banco de dados
+                                                    Utilizando a biblioteca de persistência Room
+                                                    Manipulando dados do Banco de Dados
+                                                    `}
+
             ]
       }
     })
